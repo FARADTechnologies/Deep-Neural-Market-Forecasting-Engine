@@ -1,0 +1,57 @@
+id: externalID
+name: title
+price: price
+rooms: rega_property_specs_number_of_rooms
+bath: baths
+Area_m2: rega_property_specs_area_size
+location: location_name (Değişken)
+lat: lat (Değişken)
+long: lng (Değişken)
+building_no: // Dublicate verilerin Cleaning üçün saxlanılıb
+Amenities: // Bu datalar qiymetlendirmede önem taşıyır. 
+furnished: // Mebelli olub olmadığını gösterir. 
+completion_status: //Tikilib tikilmediyi önemlidi.
+
+reactivatedAt: // 99% elan bu tarixi elan qoyulma tarixi kimi gösterir.
+city: seher
+region: bolge North Jeddah fln
+district: mehle
+link: elanin linki test ucun
+beds: otaqlarin sayini tapmaq üçün
+
+postal_code: // Dublicate Cleaning
+additional_no: // Dublicate Cleaning
+isVerified: // Doğrulanıb ya yox
+truBroker: Doğrulanıb ya yox
+
+listing_age: teze ya yox
+listing_face: Uzu hansi terefe baxdigi qiymete tesir edebiler
+deed_number: Kupca nomresi, Dublikatlari tapmaqda çox lazimlidir
+hasProject: hasProject // bunu anlamadim
+
+is_listing_constrained: // Miras problemi fln var evi satmaq cetindiq huquqi cehetden
+is_listing_pawned: // Ev ipotekadir (huquqi problem)
+agency_name: agency adi
+type: 11% dev 89% agency - Developer binani tiken sirket, agency makler
+state: elan aktivmi diyilmi
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Çıxarılıb:
+createdAt: createdAt - kecersiz
+updatedAt: updatedAt - kecersiz data
+building_type: hamisi apartmentdi
+all_pictures: sekillerin linkleri indiki halda lazim deyil
+purpose: hamisi for sale dir
+residence_type: 4 denesi xaric hamisi famliydir
+
+Cover: coverPhoto -> artik gerek yoxdur
+rentFrequency: buylara bxiriq deye lazim deyil
+
+street_name: erebce olur bezen
+keywords: keywords #keywords == amentities olduguna gore sildim/ 
+eastern_border_length: rega_borders_east_limit_length_char #erebce
+western_border_length: rega_borders_west_limit_length_char
+northern_border_length: rega_borders_north_limit_length_char
+southern_border_length: rega_borders_south_limit_length_char
+isAgency?: agency_info -> type (Mantıksal Kontrol) 
