@@ -1,3 +1,37 @@
+**------------------------------------------------------------------------------------------------------------**
+Filterleme:
+1. Eyni Tapululari Id Ledim
+2. apartmanda birden çox eyni tapulu ev olabiler lakin odalari ferqli olabiler. Eyni zamanda diqqet edende eyni id li evlerde meslen 5061 e baxsaq, çox böyük area görsenir 819m2 bu 3 yada 2 otaqli ev olabilmez apartmandı. Ona göre bir apartmanda birden çox eyni tapu nömreli lakin odası ferqli olan evlər ola bilər. 
+    Ona göre bele etmeliyik: Property Id lere bölüb median ile ekstra ferqli olan meselen medianı 3 dürse ama 15 otaq varsa onları silmeliyik. Lakin qalanlarını saxlamalıyıq. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Yapılacaklar:
 1. 
 2. 
@@ -24,3 +58,4 @@ Yapıldı:
 8. Numeric ve Categoric featureleri ayır 2 ferqli listeye. Sütun adları olsun. 
 9. 
 10. 
+
