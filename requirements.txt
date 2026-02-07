@@ -1,0 +1,9 @@
+pandas
+numpy
+folium
+branca
+scikit-learn
+matplotlib
+seaborn
+h3
+ipykernel
